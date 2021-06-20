@@ -1,0 +1,90 @@
+/*---------- Header ----------*/
+
+.home header{
+  
+    background-color: var(--color-amarillo);
+}
+.home header img{
+    width: 120px;
+    margin: 4% 5px 0 3%;
+}
+.home header div{
+    padding: 18px;
+}
+.home header p{
+    font-size: 12px;
+    padding-left: 5%;
+    
+}
+.home header ul{
+    font-size: 12px;
+    padding: 10px 0;
+}
+.home header a{
+    color: black;   
+}
+.home header nav{
+    margin-bottom: 16px;
+}
+
+.home header .burger-menu{
+    width: 40px;
+    height: 40px;
+   color: var(--color--gris-claro) ;
+   background-color: var(--color--celeste);
+   display: inline-block;
+   font-size: 20px;
+   padding: 8px 5px ;
+   border-radius: 4px;
+   text-align: center;
+   margin-left: 140px;
+   margin-bottom: 20px;
+
+}
+
+/*---------- products ----------*/
+
+.home main h4{
+ font-size: 24px;
+}
+.home main .precio{
+    font-size: 18px;
+}
+.home main p{
+    font-size: 16px;
+}
+.home main h5{
+   font-size: 16px;
+}
+
+/*---------- footer ----------*/
+.home footer {
+   text-align: center;
+   margin-top: 20%;
+}
+.home footer article{
+    margin: 15% ;
+}
+.home footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--color--celeste);
+}
+.home footer h4{
+    color: var(--color--gris-oscuro);
+    font-weight: 600;
+}
+.home footer p{
+    font-size: 11px;
+    color: var(--color--gris-oscuro);
+    margin: 0 15% 0 15%;
+    
+}
+.home .copy{
+
+ text-align: left;
+ margin-left: 10px;
+ margin-bottom: 10px;
+
+
+}
