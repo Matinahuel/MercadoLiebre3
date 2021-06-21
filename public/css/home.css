@@ -1,8 +1,12 @@
+.home{
+    background-color: var(--color--gris-claro);
+}
 /*---------- Header ----------*/
 
 .home header{
   
     background-color: var(--color-amarillo);
+    padding-bottom: 1em ;
 }
 .home header img{
     width: 120px;
@@ -12,40 +16,63 @@
     padding: 18px;
 }
 .home header p{
-    font-size: 12px;
-    padding-left: 5%;
-    
+    text-align: center;
+       
 }
 .home header ul{
-    font-size: 12px;
     padding: 10px 0;
 }
 .home header a{
-    color: black;   
+    color: #000;   
 }
 .home header nav{
     margin-bottom: 16px;
+    display: none;
 }
-
+.home header .burger{
+    text-align: center;
+}
 .home header .burger-menu{
     width: 40px;
     height: 40px;
-   color: var(--color--gris-claro) ;
+   color: #ffffff ;
    background-color: var(--color--celeste);
-   display: inline-block;
-   font-size: 20px;
-   padding: 8px 5px ;
    border-radius: 4px;
-   text-align: center;
-   margin-left: 140px;
-   margin-bottom: 20px;
+   border: none;
+}
+.home .burger-menu i{
+    font-size: 24px;
+}
+/*---------- banner ----------*/
 
+.home .banner{
+    width: 100%;
 }
 
-/*---------- products ----------*/
+/*---------- main ----------*/
+.home main {
+    width: 90%;
+    margin-left: 5%;
+}
+.home main .products-img{
+    width: 100%;
+}
+.home main article{
+    margin-bottom: 10px ;
+}
 
+.home main .descripcion{
+    margin-top: solid 1px var(--color--gris-claro);
+    padding: 15px;
+    background-color: #ffff;
+}
+.home main .fa-truck{
+    font-size: 16px;
+    color: var(--color-verde);
+}
 .home main h4{
  font-size: 24px;
+ color: var(--color--gris-oscuro);
 }
 .home main .precio{
     font-size: 18px;
@@ -53,17 +80,26 @@
 .home main p{
     font-size: 16px;
 }
+.home main .descuento{
+    color: var(--color-verde);
+}
 .home main h5{
    font-size: 16px;
+   color: var(--color--gris-oscuro);
+   font-weight: normal;
+   margin-top: 20px;
+   display: none;
 }
 
 /*---------- footer ----------*/
 .home footer {
    text-align: center;
-   margin-top: 20%;
+   
+   background-color: #ffff;
+   padding: 20px;
 }
 .home footer article{
-    margin: 15% ;
+    margin: 10%  ;
 }
 .home footer i{
     font-size: 2em;
@@ -77,14 +113,38 @@
 .home footer p{
     font-size: 11px;
     color: var(--color--gris-oscuro);
-    margin: 0 15% 0 15%;
     
 }
 .home .copy{
 
  text-align: left;
- margin-left: 10px;
- margin-bottom: 10px;
+ 
 
 
+}
+ /*----------- media querys ---------*/
+
+     /*--Tablet*--*/
+   
+@media (min-width:361px) {
+     /*---Header---*/
+     .home header nav{
+      display: block;
+    }
+    .home header .burger-menu{
+        
+       display:none;
+    }
+
+    /*---main---*/
+    .home main h5{ 
+        display: block;
+     }
+     .home main article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+@media (min-width:769px) {
+    
 }
