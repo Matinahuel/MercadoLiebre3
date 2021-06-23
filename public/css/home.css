@@ -109,6 +109,7 @@
 .home footer h4{
     color: var(--color--gris-oscuro);
     font-weight: 600;
+    font-size: 16px;
 }
 .home footer p{
     font-size: 11px;
